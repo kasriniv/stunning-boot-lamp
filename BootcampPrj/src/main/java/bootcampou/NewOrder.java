@@ -9,18 +9,21 @@ public class NewOrder implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Customer Name")
+   @org.kie.api.definition.type.Label("Customer Name")
    private java.lang.String custname;
-   @org.kie.api.definition.type.Label(value = "Customer ID")
+   @org.kie.api.definition.type.Label("Customer ID")
    private java.lang.String custid;
-   @org.kie.api.definition.type.Label(value = "HOA Signature milestone")
+   @org.kie.api.definition.type.Label("HOA Signature milestone")
    private java.lang.Boolean hoasign;
-   @org.kie.api.definition.type.Label(value = "Electric Approval")
+   @org.kie.api.definition.type.Label("Electric Approval")
    private java.lang.Boolean electric;
-   @org.kie.api.definition.type.Label(value = "Structural approval")
+   @org.kie.api.definition.type.Label("Structural approval")
    private java.lang.Boolean structural;
-   @org.kie.api.definition.type.Label(value = "Order Completed")
+   @org.kie.api.definition.type.Label("Order Completed")
    private java.lang.Boolean completed;
+
+   @org.kie.api.definition.type.Label(value = "Customer Address")
+   private java.lang.String custaddr;
 
    public NewOrder()
    {
@@ -86,9 +89,20 @@ public class NewOrder implements java.io.Serializable
       this.completed = completed;
    }
 
+   public java.lang.String getCustaddr()
+   {
+      return this.custaddr;
+   }
+
+   public void setCustaddr(java.lang.String custaddr)
+   {
+      this.custaddr = custaddr;
+   }
+
    public NewOrder(java.lang.String custname, java.lang.String custid,
          java.lang.Boolean hoasign, java.lang.Boolean electric,
-         java.lang.Boolean structural, java.lang.Boolean completed)
+         java.lang.Boolean structural, java.lang.Boolean completed,
+         java.lang.String custaddr)
    {
       this.custname = custname;
       this.custid = custid;
@@ -96,6 +110,7 @@ public class NewOrder implements java.io.Serializable
       this.electric = electric;
       this.structural = structural;
       this.completed = completed;
+      this.custaddr = custaddr;
    }
 
 }
