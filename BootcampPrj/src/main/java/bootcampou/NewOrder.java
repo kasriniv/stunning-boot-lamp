@@ -100,7 +100,8 @@ public class NewOrder implements java.io.Serializable
    }
    
    public String toString(){
-       System.out.println(custname+","+custid+","+hoasign+","+electric+","+structural+","+completed+","+custaddr)
+       System.out.println(custname+","+custid+","+hoasign+","+electric+","+structural+","+completed+","+custaddr);
+       return (custname+","+custid+","+hoasign+","+electric+","+structural+","+completed+","+custaddr);
    }
 
    public NewOrder(java.lang.String custname, java.lang.String custid,
