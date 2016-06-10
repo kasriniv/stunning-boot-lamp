@@ -98,6 +98,10 @@ public class NewOrder implements java.io.Serializable
    {
       this.custaddr = custaddr;
    }
+   
+   public String toString(){
+       System.out.println(custname+","+custid+","+hoasign+","+electric+","+structural+","+completed+","+custaddr)
+   }
 
    public NewOrder(java.lang.String custname, java.lang.String custid,
          java.lang.Boolean hoasign, java.lang.Boolean electric,
