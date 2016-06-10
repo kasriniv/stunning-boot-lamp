@@ -3,4 +3,61 @@
 <property name="name" value="HOAApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="NewOrder_completed" type="CheckBox" id="1426175793">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;completed (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/completed"/>
+<property name="outputBinding" value="NewOrder/completed"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="NewOrder_custaddr" type="InputText" id="1608875951">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;custaddr (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/custaddr"/>
+<property name="outputBinding" value="NewOrder/custaddr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="NewOrder_custid" type="InputText" id="429177510">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;custid (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/custid"/>
+<property name="outputBinding" value="NewOrder/custid"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="NewOrder_custname" type="InputText" id="232598517">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;custname (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/custname"/>
+<property name="outputBinding" value="NewOrder/custname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="NewOrder_electric" type="CheckBox" id="1410294634">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;electric (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/electric"/>
+<property name="outputBinding" value="NewOrder/electric"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="NewOrder_hoasign" type="CheckBox" id="1773573626">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hoasign (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/hoasign"/>
+<property name="outputBinding" value="NewOrder/hoasign"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="NewOrder_structural" type="CheckBox" id="1867445081">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;structural (NewOrder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="NewOrder/structural"/>
+<property name="outputBinding" value="NewOrder/structural"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="NewOrder" name="#E9E371" type="dataModelerEntry" outId="NewOrder" value="bootcampou.NewOrder" id="NewOrder"/>
 </form>
