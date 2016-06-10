@@ -3,43 +3,7 @@
 <property name="name" value="BootcampPrj.ResidentialApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="ElectricApproval" type="CheckBox" id="1384776843">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;ElectricApproval (ElectricApproval)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="ElectricApproval"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="1" name="FinalApproval" type="CheckBox" id="661372387">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;FinalApproval (FinalApproval)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="FinalApproval"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="2" name="HOAApproval" type="CheckBox" id="198491302">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;HOAApproval (HOAApproval)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="HOAApproval"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="3" name="StructureApproval" type="CheckBox" id="1480951731">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;StructureApproval (StructureApproval)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="StructureApproval"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="4" name="NewOrder_completed" type="CheckBox" id="447465128">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;completed (NewOrder)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="NewOrder/completed"/>
-<property name="outputBinding" value="NewOrder/completed"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="5" name="NewOrder_custaddr" type="InputText" id="1576392299">
+<field position="0" name="NewOrder_custaddr" type="InputText" id="1576392299">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;custaddr (NewOrder)quot;"/>
 <property name="readonly" value="false"/>
@@ -47,7 +11,7 @@
 <property name="outputBinding" value="NewOrder/custaddr"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="NewOrder_custid" type="InputText" id="1825874426">
+<field position="1" name="NewOrder_custid" type="InputText" id="1825874426">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;custid (NewOrder)quot;"/>
 <property name="readonly" value="false"/>
@@ -55,7 +19,7 @@
 <property name="outputBinding" value="NewOrder/custid"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="NewOrder_custname" type="InputText" id="128132162">
+<field position="2" name="NewOrder_custname" type="InputText" id="128132162">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;custname (NewOrder)quot;"/>
 <property name="readonly" value="false"/>
@@ -63,7 +27,7 @@
 <property name="outputBinding" value="NewOrder/custname"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="NewOrder_electric" type="CheckBox" id="1565474633">
+<field position="3" name="NewOrder_electric" type="CheckBox" id="1565474633">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;electric (NewOrder)quot;"/>
 <property name="readonly" value="false"/>
@@ -71,7 +35,7 @@
 <property name="outputBinding" value="NewOrder/electric"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="9" name="NewOrder_hoasign" type="CheckBox" id="1775132454">
+<field position="4" name="NewOrder_hoasign" type="CheckBox" id="1775132454">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;hoasign (NewOrder)quot;"/>
 <property name="readonly" value="false"/>
@@ -79,7 +43,7 @@
 <property name="outputBinding" value="NewOrder/hoasign"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="10" name="NewOrder_structural" type="CheckBox" id="1122893866">
+<field position="5" name="NewOrder_structural" type="CheckBox" id="1122893866">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;structural (NewOrder)quot;"/>
 <property name="readonly" value="false"/>
